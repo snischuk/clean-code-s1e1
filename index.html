@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="style.css" media="screen">
   </head>
   <body class="body">
-    <div class="header">
+    <header class="header">
+      <h1 class="header__title header__title--hidden">Todo list</h1>
       <img class="header__image" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
       <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="todo">
-      <label class="todo__title todo__title--new">Add Item</label>
+    </header>
+    <main class="todo">
+      <h2 class="todo__title todo__title--new">Add Item</h2>
       <div class="todo__new-wrapper">
         <input class="todo__input todo__input--new" id="new-task" type="text">
         <button class="todo__btn">Add</button>
       </div>
-      <h3 class="todo__title">Todo</h3>
+      <h2 class="todo__title">Todo</h2>
       <ul class="todo__list" id="incomplete-tasks">
         <li class="todo__item">
           <input class="todo__checkbox" type="checkbox">
@@ -38,7 +39,7 @@
           </button>
         </li>
       </ul>
-      <h3 class="todo__title">Completed</h3>
+      <h2 class="todo__title">Completed</h2>
       <ul class="todo__list" id="completed-tasks">
         <li class="todo__item">
           <input class="todo__checkbox" type="checkbox" checked>
@@ -50,7 +51,7 @@
           </button>
         </li>
       </ul>
-    </div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
