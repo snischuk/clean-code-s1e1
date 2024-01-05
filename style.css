@@ -8,7 +8,6 @@
 .header {
   width: 500px;
   margin: 0 auto;
-  display: block;
   text-align: right;
 }
 
@@ -27,15 +26,12 @@
 }
 
 .todo {
-  display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
 .todo__label,
 .todo__input {
-  width: 56%;
-  display: inline-block;
   flex-grow: 1;
 }
 
@@ -45,7 +41,7 @@
 
 .todo__list {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 .todo__item {
@@ -59,7 +55,7 @@
 
 .todo__btn {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -101,12 +97,7 @@
 
 /* New Task */
 .todo__title--new {
-  display: block;
   margin: 16px 0 20px;
-}
-
-.todo__input--new {
-  width: 318px;
 }
 
 /* Task list */
@@ -132,11 +123,6 @@
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px;
-}
-
-.todo__item .todo__input {
-  width: 226px;
 }
 
 .todo__btn-delete-icon {
@@ -162,7 +148,6 @@
 
 .todo__item--edit-mode .todo__input {
   display: inline-block;
-  width: 224px;
 }
 
 .todo__item--edit-mode .todo__label {
