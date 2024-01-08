@@ -45,6 +45,11 @@
   margin: 0 auto 0;
 }
 
+.todo__section{
+  display: flex;
+  flex-direction: column;
+}
+
 .todo__label,
 .todo__input {
   flex-grow: 1;
